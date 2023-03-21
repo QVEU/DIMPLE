@@ -17,6 +17,7 @@ Use align_genevariation()
 """
 
 from Bio import SeqIO
+from Bio.Seq import Seq
 from Bio.SeqRecord import SeqRecord
 from Bio.SeqUtils import MeltingTemp as mt
 from Bio import pairwise2
@@ -26,6 +27,7 @@ from math import ceil
 import itertools
 from difflib import SequenceMatcher
 from random import randrange
+import warnings
 
 
 def addgene(genefile, start=[], end=[]):
@@ -617,29 +619,35 @@ def switch_fragmentsize(gene, detectedsite, OLS):
 
 def check_overhangs(gene, OLS, overlapL, overlapR):
     # Force all overhangs to be different within a gene (no more than 2 matching in a row)
+    switched = False
     if not isinstance(gene, DIMPLE):
         raise TypeError('Not an instance of the DIMPLE class')
     while True:
-        overhang = []
-        for idx, y in enumerate(gene.breaklist):
-            overhang.append([gene.seq[y[0] - 4 - overlapL: y[0] - overlapR], idx])  # Forward overhang
-            overhang.append([gene.seq[y[1] + overlapL: y[1] + 4 + overlapR], idx + 1])  # Reverse overhang
         detectedsites = set()  # stores matching overhangs
-        for i in range(len(overhang)):  # check each overhang for matches
-            for j in [x for x in range(len(overhang)) if x != i]:  # permutate over every overhang combination to find matches
-                if overhang[i][0] == overhang[j][0] or \
-                        overhang[i][0][:3] == overhang[j][0][:3] or \
-                        overhang[i][0][1:] == overhang[j][0][1:] or \
-                        overhang[i][0] == overhang[i][0].reverse_complement():  # no 3 matching sequences
-                    detectedsites.update([overhang[i][1]])
+        for idx, y in enumerate(gene.breaklist):
+            overhang_F = gene.seq[y[0] - 4 - overlapL: y[0] - overlapR]  # Forward overhang
+            overhang_R = gene.seq[y[1] + overlapL: y[1] + 4 + overlapR]  # Reverse overhang
+            if overhang_F == overhang_R or overhang_F == overhang_R.reverse_complement():
+                detectedsites.update(idx)
+        # overhang = []
+        # for idx, y in enumerate(gene.breaklist):
+        #     overhang.append([gene.seq[y[0] - 4 - overlapL: y[0] - overlapR], idx])  # Forward overhang
+        #     overhang.append([gene.seq[y[1] + overlapL: y[1] + 4 + overlapR], idx + 1])  # Reverse overhang
+        # detectedsites = set()  # stores matching overhangs
+        # for i in range(len(overhang)):  # check each overhang for matches
+        #     for j in [x for x in range(len(overhang)) if x != i]:  # permutate over every overhang combination to find matches
+        #         #if overhang[i][0] == overhang[j][0] or overhang[i][0][:3] == overhang[j][0][:3] or overhang[i][0][1:] == overhang[j][0][1:] or overhang[i][0] == overhang[i][0].reverse_complement():  # no 3 matching bases
+        #         if overhang[i][0] == overhang[j][0] or overhang[i][0] == overhang[i][0].reverse_complement():  # no 3 matching bases
+        #             detectedsites.update([overhang[i][1]])
         for detectedsite in detectedsites:
+            switched = True
             if detectedsite == 0:
-                detectedsite = 1
+                detectedsite = 1  # dont mess with the first cut site
             print("------------------ Fragment size swapped due to matching overhangs ------------------")
             skip = switch_fragmentsize(gene, detectedsite, OLS)
-        else:
+        else:  # if no detected sites
             break
-    # return skip
+    return switched
 
 
 def generate_DMS_fragments(OLS, overlapL, overlapR, dms=True, insert=False, delete=False, folder=''):
@@ -661,7 +669,7 @@ def generate_DMS_fragments(OLS, overlapL, overlapR, dms=True, insert=False, dele
             switch_fragmentsize(gene, 1, OLS)
     for ii, gene in enumerate(OLS):
         print('--------------------------------- Analyzing Gene:' + gene.geneid + ' ---------------------------------')
-        gene.breaklist[0][0] += 3  # Do not mutate first codon
+        gene.breaklist[0][0] += 0  # Do not mutate first codon
         gene.fragsize[0] += -3  # Adjust size to match breaklist
         gene.maxfrag = DIMPLE.maxfrag
         if not any([tmp in finishedGenes for tmp in gene.linked]):  # only run analysis for one of the linked genes
@@ -674,6 +682,7 @@ def generate_DMS_fragments(OLS, overlapL, overlapR, dms=True, insert=False, dele
         compileF = []
         compileR = []
         missingSites = []
+        mutations = []
         offset_list = []
         # missingTable = [[1]*gene.aacount]*gene.aacount
         missingFragments = []
@@ -685,15 +694,15 @@ def generate_DMS_fragments(OLS, overlapL, overlapR, dms=True, insert=False, dele
                 gene.genePrimer = []
             frag = gene.breaklist[idx]
             grouped_oligos = []
-            fragstart = str(int((frag[0] - DIMPLE.primerBuffer) / 3) + 1)
+            fragstart = str(int((frag[0] - DIMPLE.primerBuffer) / 3))
             fragend = str(int((frag[1] - DIMPLE.primerBuffer) / 3))
             print('Creating Gene:' + gene.geneid + ' --- Fragment:' + fragstart + '-' + fragend)
             if not any([tmp in finishedGenes for tmp in gene.linked]):  # only run analysis for one of the linked genes
                 # Primers for gene amplification with addition of BsmBI site
-                genefrag = gene.seq[frag[0]-DIMPLE.primerBuffer : frag[0]+DIMPLE.primerBuffer]
-                reverse, tmR, sR = find_geneprimer(genefrag, 15, DIMPLE.primerBuffer+1-overlapL)  # 15 is just a starting point
-                genefrag = gene.seq[frag[1]-DIMPLE.primerBuffer: frag[1]+DIMPLE.primerBuffer]
-                forward, tmF, sF = find_geneprimer(genefrag.reverse_complement(), 15, DIMPLE.primerBuffer+1-overlapR)
+                genefrag_R = gene.seq[frag[0]-DIMPLE.primerBuffer : frag[0]+DIMPLE.primerBuffer]
+                reverse, tmR, sR = find_geneprimer(genefrag_R, 15, DIMPLE.primerBuffer+1-overlapL)  # 15 is just a starting point
+                genefrag_F = gene.seq[frag[1]-DIMPLE.primerBuffer: frag[1]+DIMPLE.primerBuffer]
+                forward, tmF, sF = find_geneprimer(genefrag_F.reverse_complement(), 15, DIMPLE.primerBuffer+1-overlapR)
                 tmpr = check_nonspecific(reverse, gene.seq, frag[0] - len(gene.seq) + 10 - overlapL)  # negative numbers look for reverse primers
                 tmpf = check_nonspecific(forward, gene.seq, frag[1] - 10 + overlapR)
                 if tmpf or tmpr:
@@ -704,14 +713,15 @@ def generate_DMS_fragments(OLS, overlapL, overlapR, dms=True, insert=False, dele
                     print("------------------ Fragment size swapped due to non-specific primers ------------------")
                     skip = switch_fragmentsize(gene, idx, OLS)
                     if skip:
-                        print("Gene primer at the end of gene has non specific annealing. Try lengthening that primer")
-                        print(forward)
-
+                        warnings.warn("Gene primer at the end of gene has non specific annealing. Try lengthening that primer")
                         # if end of gene, try to extend primer to make it more specific?
-                        #if tmpr:
-                        #    reverse +=
-                        #if tmpf:
-                        #    forward +=
+                        if tmpr:
+                            print(reverse)
+                            reverse += genefrag_R[sR-1]
+                        if tmpf:
+                            print(forward)
+                            idx -= 1
+                            forward += Seq(genefrag_F.reverse_complement()[sF-1]).reverse_complement()
                     else:
                         # Quality Control for overhangs from the same gene
                         # check_overhangs(gene, OLS)
@@ -722,7 +732,16 @@ def generate_DMS_fragments(OLS, overlapL, overlapR, dms=True, insert=False, dele
                         gene.genePrimer = []  # reset gene all primers due to nonspecific primer
                         gene.barPrimer = []
                         idx = 0
-                        continue
+                        continue  # return to the beginning
+                elif check_overhangs(gene, OLS, overlapL, overlapR):
+                    DIMPLE.barcodeF.extend(compileF)  # return unused primers
+                    DIMPLE.barcodeR.extend(compileR)
+                    compileF = []  # reset unused primers
+                    compileR = []
+                    gene.genePrimer = []  # reset gene all primers due to nonspecific primer
+                    gene.barPrimer = []
+                    idx = 0
+                    continue  # return to the beginning
                 # Store
                 gene.genePrimer.append(SeqRecord(reverse, id=gene.geneid + "_geneP_Mut-" + str(idx + 1) + "_R",
                                                  description="Frag" + fragstart + "-" + fragend + ' ' + str(tmR) + 'C'))
@@ -753,7 +772,6 @@ def generate_DMS_fragments(OLS, overlapL, overlapR, dms=True, insert=False, dele
                 ################# Create the mutations
                 # DMS
                 dms_sequences = []
-                mutations = []
                 if dms:
                     for i in range(offset, offset + frag[1] - frag[0], 3):
                         wt_codon = tmpseq[i:i + 3].upper()
@@ -770,11 +788,11 @@ def generate_DMS_fragments(OLS, overlapL, overlapR, dms=True, insert=False, dele
                             xfrag = tmpseq[0:i] + mutation[0] + tmpseq[i + 3:]  # Add mutation to fragment
                             # Check each cassette for more than 2 BsmBI and 2 BsaI sites
                             while any([(xfrag.upper().count(x) + xfrag.upper().count(x.reverse_complement())) > 2 for x in DIMPLE.avoid_sequence]):
-                                print('Found avoided sequences')  # change codon
+                                warnings.warn('Found avoided sequences')  # change codon
                                 mutation = np.random.choice(gene.SynonymousCodons[jk], 1, p)  # Pick one codon
-                                xfrag = tmpseq[0:i] + mutation + tmpseq[i + 3:]
-                            mutations.append('>'  + wt[0] + str(int((frag[0] + i + 3 - offset - DIMPLE.primerBuffer) / 3)) + jk)
-                            mutations.append(mutation)
+                                xfrag = tmpseq[0:i] + mutation[0] + tmpseq[i + 3:]
+                            mutations.append('>' + wt[0] + str(int((frag[0] + i + 3 - offset - DIMPLE.primerBuffer) / 3)) + jk)
+                            mutations.append(mutation[0])
                             dms_sequences.append(SeqRecord(xfrag,
                                                           id=gene.geneid + "_DMS-" + str(idx + 1) + "_" + wt[0] + str(int((frag[0] + i + 3 - offset - DIMPLE.primerBuffer) / 3)) + jk,
                                                           description='Frag '+fragstart + "-" + fragend))
