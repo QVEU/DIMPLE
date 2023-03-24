@@ -1,96 +1,136 @@
->Capsid_oligoP_DMS-1_F Frag1-72_58.8C
-ATCCGATGTTCTGGTACTCGC
->Capsid_oligoP_DMS-1_R Frag1-72_57.8C
-TGGTTGCCCTCTACAGATTGG
->Capsid_oligoP_DMS-2_F Frag73-144_58.9C
-ACTAGGTTATCACGCCAGACG
->Capsid_oligoP_DMS-2_R Frag73-144_58.9C
-AGTAGTTCCGTCCGTCGGA
->Capsid_oligoP_DMS-3_F Frag145-216_58.5C
-GACGTATGCGGACTAATTGCC
->Capsid_oligoP_DMS-3_R Frag145-216_59.0C
-ACCAGGGCCATGTTTTAGCG
->Capsid_oligoP_DMS-4_F Frag217-288_56.4C
-TACTTGTGTTGGGGTATGGGG
->Capsid_oligoP_DMS-4_R Frag217-288_57.8C
-CGCTTTTGCGGGGTCTAC
->Capsid_oligoP_DMS-5_F Frag289-360_56.0C
-CTGAGGGTTTAGGAGCTCTC
->Capsid_oligoP_DMS-5_R Frag289-360_57.1C
-CCTGGCCGACCTACGG
->Capsid_oligoP_DMS-6_F Frag361-432_58.4C
-GGTTTCGTGTATTTTCCCCGC
->Capsid_oligoP_DMS-6_R Frag361-432_57.4C
-AAAGCCCGGGAGGTCAATC
->Capsid_oligoP_DMS-7_F Frag433-504_58.0C
-CGGTAAGCCAACATATCTGCC
->Capsid_oligoP_DMS-7_R Frag433-504_57.1C
-CTTACCCAGTCTCACGCTTC
->Capsid_oligoP_DMS-8_F Frag505-576_58.0C
-CACTCCCATAATTTGACGCGT
->Capsid_oligoP_DMS-8_R Frag505-576_58.8C
-GATGTGTGGCAATGCGGTGT
->Capsid_oligoP_DMS-9_F Frag577-648_59.2C
-CAATGCGATCCAGTCATGTCG
->Capsid_oligoP_DMS-9_R Frag577-648_57.0C
-GACGGGTCGGTTCTCAAAG
->Capsid_oligoP_DMS-10_F Frag649-720_57.2C
-AGAGGATAGGGTTAGGGGTCC
->Capsid_oligoP_DMS-10_R Frag649-720_58.7C
-AGGTGTTGGTCGTCTAGTTCG
->Capsid_oligoP_DMS-11_F Frag721-791_57.6C
-TAGTTATGCTGTAGCGTGGGA
->Capsid_oligoP_DMS-11_R Frag721-791_58.9C
-TCTGCTCACCGCTAAGAACAA
->Capsid_oligoP_DMS-12_F Frag792-862_58.0C
-AACTAGGTTTGTTTGTGCGGC
->Capsid_oligoP_DMS-12_R Frag792-862_55.5C
-CTTCCATCGGGCCGC
->Capsid_geneP_Mut-1_R Frag1-72 60.6C
-ATACGTCTCgtttgattgtgttgagggtcaaaatgaattt
->Capsid_geneP_Mut-1_F Frag1-72 62.8C
-ATACGTCTCgaggcatgtggttacagcgatcg
->Capsid_geneP_Mut-2_R Frag73-144 61.2C
-ATACGTCTCagatggagattttaatggcgctgc
->Capsid_geneP_Mut-2_F Frag73-144 60.4C
-ATACGTCTCgggtggtactggaaattcccgg
->Capsid_geneP_Mut-3_R Frag145-216 60.9C
-ATACGTCTCggatgatttctcccacaattttgtgtcc
->Capsid_geneP_Mut-3_F Frag145-216 63.0C
-ATACGTCTCaagcagactcaacccggtgctg
->Capsid_geneP_Mut-4_R Frag217-288 59.4C
-ATACGTCTCaggggggtggctatcctcc
->Capsid_geneP_Mut-4_F Frag217-288 60.7C
-ATACGTCTCccgttagattatgaccaaggtgcg
->Capsid_geneP_Mut-5_R Frag289-360 60.8C
-ATACGTCTCaataggcacaaccagcagaccaaa
->Capsid_geneP_Mut-5_F Frag289-360 63.5C
-ATACGTCTCgaagttagaaacttgctagagctatgcc
->Capsid_geneP_Mut-6_R Frag361-432 59.5C
-ATACGTCTCgggtatatggatacacggggtgg
->Capsid_geneP_Mut-6_F Frag361-432 61.3C
-ATACGTCTCtggtcaggatcactggaagtcacc
->Capsid_geneP_Mut-7_R Frag433-504 61.4C
-ATACGTCTCggtgtagtacccgcacaactgg
->Capsid_geneP_Mut-7_F Frag433-504 61.1C
-ATACGTCTCgatggtgtgttcgactactacactac
->Capsid_geneP_Mut-8_R Frag505-576 64.6C
-ATACGTCTCagcgtgcgctctgtaatgagtgtt
->Capsid_geneP_Mut-8_F Frag505-576 62.9C
-ATACGTCTCggggacagtgtgagcagagcc
->Capsid_geneP_Mut-9_R Frag577-648 61.0C
-ATACGTCTCagaactctcaatcacatctgccacc
->Capsid_geneP_Mut-9_F Frag577-648 61.2C
-ATACGTCTCagcagagcaggattagttggagag
->Capsid_geneP_Mut-10_R Frag649-720 63.0C
-ATACGTCTCgaagctatcaagagtggtttcagctgt
->Capsid_geneP_Mut-10_F Frag649-720 60.5C
-ATACGTCTCccacccggagcccccaag
->Capsid_geneP_Mut-11_R Frag721-791 60.5C
-ATACGTCTCaaacatgtattggagcaattgcggg
->Capsid_geneP_Mut-11_F Frag721-791 61.7C
-ATACGTCTCaacatgatgggtacgttctcagtgc
->Capsid_geneP_Mut-12_R Frag792-862 60.0C
-ATACGTCTCtgggcatgccccgtattcaag
->Capsid_geneP_Mut-12_F Frag792-862 63.1C
-ATACGTCTCaaatttggacagcagtccggagct
+>Capsid_oligoP_DMS-1_F Frag1-51_57.6C
+TTATTCATGCCGCCCTATCG
+>Capsid_oligoP_DMS-1_R Frag1-51_58.2C
+TCCGCTTATCTCGTGCCTT
+>Capsid_oligoP_DMS-2_F Frag52-102_58.2C
+ACCACAGGTCAAGATTCACGG
+>Capsid_oligoP_DMS-2_R Frag52-102_59.5C
+GCGTCTCGCTGTTTTCGAC
+>Capsid_oligoP_DMS-3_F Frag103-153_58.2C
+GATAGTCTTGGACAGACGGGG
+>Capsid_oligoP_DMS-3_R Frag103-153_57.5C
+TGTCCACAACTATCCGCTCC
+>Capsid_oligoP_DMS-4_F Frag154-204_57.6C
+TCGCTTCCGACTATATACGC
+>Capsid_oligoP_DMS-4_R Frag154-204_57.5C
+GCGGCAGTGTATGCGC
+>Capsid_oligoP_DMS-5_F Frag205-255_58.2C
+TGAGGGCCATGATGTTAAGGC
+>Capsid_oligoP_DMS-5_R Frag205-255_58.5C
+TTATCGCGCCTTCAACTAGC
+>Capsid_oligoP_DMS-6_F Frag256-306_58.3C
+CGGTCTAAAGAACCTCTGCAG
+>Capsid_oligoP_DMS-6_R Frag256-306_58.4C
+TTCCCCTGGCCTGTCAACTT
+>Capsid_oligoP_DMS-7_F Frag307-357_57.6C
+GTTCGTTGCTTCGCTTACTG
+>Capsid_oligoP_DMS-7_R Frag307-357_56.2C
+CGGGGAGTGTTTCGAGTC
+>Capsid_oligoP_DMS-8_F Frag358-408_57.2C
+CGGTCTAGGATTATGCCGAC
+>Capsid_oligoP_DMS-8_R Frag358-408_57.8C
+ATCGAATGAAACTGAGCCCG
+>Capsid_oligoP_DMS-9_F Frag409-459_58.7C
+ACTGTATATTCGTCGAGCGGT
+>Capsid_oligoP_DMS-9_R Frag409-459_58.0C
+GTGCCACCTACACAGCGAA
+>Capsid_oligoP_DMS-10_F Frag460-510_57.8C
+ATTATCCTAGTCCGGGCTCAG
+>Capsid_oligoP_DMS-10_R Frag460-510_58.1C
+GAGTGACGGTTTGCGCATTA
+>Capsid_oligoP_DMS-11_F Frag511-561_58.4C
+GATTGGATAAATGGCCGCAGG
+>Capsid_oligoP_DMS-11_R Frag511-561_58.1C
+GCTCTGGGAGGATGTAGACTG
+>Capsid_oligoP_DMS-12_F Frag562-612_58.4C
+CTAGGGAACCAGGCTTAACGA
+>Capsid_oligoP_DMS-12_R Frag562-612_58.9C
+CCCGCGCTTAGCTTGTTAC
+>Capsid_oligoP_DMS-13_F Frag613-663_57.6C
+TCTTCATAAGCCAGAGTGCCT
+>Capsid_oligoP_DMS-13_R Frag613-663_59.0C
+GGCGCTATGTGCAACCTACA
+>Capsid_oligoP_DMS-14_F Frag664-713_58.8C
+TTAGAATAGGTTCGCCGTCCC
+>Capsid_oligoP_DMS-14_R Frag664-713_58.5C
+CTCCGGTTCTACGTTATGCAG
+>Capsid_oligoP_DMS-15_F Frag714-763_57.1C
+TACCTTTGCTCTAGCTTCGG
+>Capsid_oligoP_DMS-15_R Frag714-763_58.9C
+TAATCGGCGTCTGCTACCTC
+>Capsid_oligoP_DMS-16_F Frag764-813_57.2C
+TGTTGTATCGATACCGCTGC
+>Capsid_oligoP_DMS-16_R Frag764-813_58.1C
+TCCCACGTCGAGCATCATC
+>Capsid_oligoP_DMS-17_F Frag814-863_56.6C
+TCATGTTATCCCGTATGCGG
+>Capsid_oligoP_DMS-17_R Frag814-863_58.4C
+TGCGTGGATAACTAGCAGGG
+>Capsid_geneP_Mut-1_R Frag1-51 64.3C
+ATACGTCTCtgattgtgttgagggtcaaaatgaatttgagagtg
+>Capsid_geneP_Mut-1_F Frag1-51 65.8C
+ATACGTCTCaagtttgcaaatcctgtcaaagacatcttcactga
+>Capsid_geneP_Mut-2_R Frag52-102 70.5C
+ATACGTCTCtgggtcctgcttaaggctctgcttacctgct
+>Capsid_geneP_Mut-2_F Frag52-102 69.8C
+ATACGTCTCggctatggtgagtggccttcctactgttcgg
+>Capsid_geneP_Mut-3_R Frag103-153 65.3C
+ATACGTCTCtatgatgtttgctgcttcttgcgtagtgatg
+>Capsid_geneP_Mut-3_F Frag103-153 66.0C
+ATACGTCTCgtgttaactgaaaccggggtctttggtcaaa
+>Capsid_geneP_Mut-4_R Frag154-204 66.6C
+ATACGTCTCcgggaatttccagtaccaccccttggatgat
+>Capsid_geneP_Mut-4_F Frag154-204 73.1C
+ATACGTCTCgcaggtggcacagggacggaggatagccacc
+>Capsid_geneP_Mut-5_R Frag205-255 68.3C
+ATACGTCTCtgtcccaatgacatactctgggaggacagcg
+>Capsid_geneP_Mut-5_F Frag205-255 65.4C
+ATACGTCTCaccaacaattgtgccacaataatagtgccgt
+>Capsid_geneP_Mut-6_R Frag256-306 63.6C
+ATACGTCTCcaaattaatccactgatgtgggcacactgtt
+>Capsid_geneP_Mut-6_F Frag256-306 68.1C
+ATACGTCTCttggccccaatgtgttctgaatttgcaggcc
+>Capsid_geneP_Mut-7_R Frag307-357 69.6C
+ATACGTCTCgatagtaatggggatcactggcgtcgcacct
+>Capsid_geneP_Mut-7_F Frag307-357 64.7C
+ATACGTCTCcatatacccggtgaagttagaaacttgctaga
+>Capsid_geneP_Mut-8_R Frag358-408 68.6C
+ATACGTCTCacacggggtggggtgaaagtttggcagaatg
+>Capsid_geneP_Mut-8_F Frag358-408 70.8C
+ATACGTCTCttcagagctgaccctggacgaagtgggccat
+>Capsid_geneP_Mut-9_R Frag409-459 70.9C
+ATACGTCTCtgcacatagctcacctttcccggcttgagct
+>Capsid_geneP_Mut-9_F Frag409-459 72.4C
+ATACGTCTCccaccaggaggccccttacccaaggaccggg
+>Capsid_geneP_Mut-10_R Frag460-510 67.6C
+ATACGTCTCgtatgctatgagcatcttgccggtagccata
+>Capsid_geneP_Mut-10_F Frag460-510 63.3C
+ATACGTCTCtactacactacaggtttggttagcatatggta
+>Capsid_geneP_Mut-11_R Frag511-561 71.6C
+ATACGTCTCgaacacaccatctcgagcgtgcgctctgtaa
+>Capsid_geneP_Mut-11_F Frag511-561 68.4C
+ATACGTCTCggcactatccagggagatagggtggcagatg
+>Capsid_geneP_Mut-12_R Frag562-612 64.9C
+ATACGTCTCctgtaggatatcactagcatccttacacaacttc
+>Capsid_geneP_Mut-12_F Frag562-612 65.5C
+ATACGTCTCcaagccgctgaaattggagcatcatcaaatg
+>Capsid_geneP_Mut-13_R Frag613-663 65.4C
+ATACGTCTCtgctggaactttaccagtatctaatcggtgg
+>Capsid_geneP_Mut-13_F Frag613-663 70.1C
+ATACGTCTCggcacaaccaacccgaatgggtacgcaaact
+>Capsid_geneP_Mut-14_R Frag664-713 65.1C
+ATACGTCTCaagagggaggtctatctctccaactaatcct
+>Capsid_geneP_Mut-14_F Frag664-713 64.4C
+ATACGTCTCcaattgctccaatacatgtttgtaccacccg
+>Capsid_geneP_Mut-15_R Frag714-763 70.7C
+ATACGTCTCgacaacttgcccggtaggggtgcatgcaaca
+>Capsid_geneP_Mut-15_F Frag714-763 66.4C
+ATACGTCTCagcgcctatcaatggttttatgacgggtatc
+>Capsid_geneP_Mut-16_R Frag764-813 65.7C
+ATACGTCTCaggtgacatgaatggaacagaaacctgtgct
+>Capsid_geneP_Mut-16_F Frag764-813 64.6C
+ATACGTCTCatcaggatttacatgaggatgaagcacgtca
+>Capsid_geneP_Mut-17_R Frag814-863 67.7C
+ATACGTCTCcaatgggtacttggacttcgaggtgcctaca
+>Capsid_geneP_Mut-17_F Frag814-863 67.8C
+ATACGTCTCaaatttggacagcagtccggagctatctacg

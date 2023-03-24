@@ -1,144 +1,216 @@
->Replication_oligoP_DMS-1_F Frag1-73_57.5C
-AGGTGAGTTTTGTTCGCTTCC
->Replication_oligoP_DMS-1_R Frag1-73_56.9C
-GGTGAGTGGACGTTATGCTG
->Replication_oligoP_DMS-2_F Frag74-147_55.7C
-TTGACGTACGTAGGTTCTCC
->Replication_oligoP_DMS-2_R Frag74-147_58.3C
-CTGACGCATGGTCACTGACT
->Replication_oligoP_DMS-3_F Frag148-221_57.7C
-CGGAAGTCTTATCTGGGAGGA
->Replication_oligoP_DMS-3_R Frag148-221_58.5C
-AGTGTTCCCTTCGCGAACC
->Replication_oligoP_DMS-4_F Frag222-295_56.4C
-TCTCGCTGATTTCTACCCAG
->Replication_oligoP_DMS-4_R Frag222-295_57.4C
-ACGGGCGGTCTTACGATT
->Replication_oligoP_DMS-5_F Frag296-369_58.5C
-CTAGTAACGTACCGAGAGGCT
->Replication_oligoP_DMS-5_R Frag296-369_58.8C
-CGGCCTCTGCGCTTGT
->Replication_oligoP_DMS-6_F Frag370-443_59.0C
-AGATTCTTCACTCTCGGACGG
->Replication_oligoP_DMS-6_R Frag370-443_56.6C
-CGTAGTCCCAGACCATTCG
->Replication_oligoP_DMS-7_F Frag444-517_56.2C
-ATAGTAGACGTTCACCGCTC
->Replication_oligoP_DMS-7_R Frag444-517_57.7C
-TTGAGCGGGGCTTACCAAA
->Replication_oligoP_DMS-8_F Frag518-591_58.0C
-TTTCTAGTTGGGTGTCTCGGG
->Replication_oligoP_DMS-8_R Frag518-591_57.9C
-AACTCCGCCGCATTCCC
->Replication_oligoP_DMS-9_F Frag592-665_58.2C
-ATGCGTCTTTTGCACTTCTCC
->Replication_oligoP_DMS-9_R Frag592-665_59.0C
-ATCCTCGAGACGTGGTGGAA
->Replication_oligoP_DMS-10_F Frag666-739_57.7C
-CAGATTTGTGTAGCGTCACCC
->Replication_oligoP_DMS-10_R Frag666-739_58.0C
-CTCACTCTAGGGTATGGCCTG
->Replication_oligoP_DMS-11_F Frag740-813_57.9C
-TAAGAGGGTGTTGTGTACCGC
->Replication_oligoP_DMS-11_R Frag740-813_57.7C
-GCATGCGCTTAGACTGACC
->Replication_oligoP_DMS-12_F Frag814-887_57.8C
-GACTGACGTAACCACCCTAGG
->Replication_oligoP_DMS-12_R Frag814-887_58.8C
-CATCCCCGATGTCGTGTCTC
->Replication_oligoP_DMS-13_F Frag888-961_56.0C
-TAAGCGCCCTTCTAATACCC
->Replication_oligoP_DMS-13_R Frag888-961_59.4C
-CTTCGCCTGCGAGAATTAGG
->Replication_oligoP_DMS-14_F Frag962-1035_58.5C
-ATAGTGCTGTAGTGGAACCGC
->Replication_oligoP_DMS-14_R Frag962-1035_59.8C
-CTGCGCCGAGTCAATGATTG
->Replication_oligoP_DMS-15_F Frag1036-1109_58.2C
-TTCCTCGCTACTAGCCAATCA
->Replication_oligoP_DMS-15_R Frag1036-1109_58.5C
-TGGCCTGAAGAGGGTCGTAT
->Replication_oligoP_DMS-16_F Frag1110-1183_55.7C
-CGGGTGAGCATATAACTTGC
->Replication_oligoP_DMS-16_R Frag1110-1183_58.3C
-GGCTGTCTGCGTTGTTTCTC
->Replication_oligoP_DMS-17_F Frag1184-1257_59.1C
-CGCTAGTTAGTCCTCTCGACA
->Replication_oligoP_DMS-17_R Frag1184-1257_58.7C
-GGCCTGCGAGGTCGTTC
->Replication_oligoP_DMS-18_F Frag1258-1331_56.7C
-ATTATAACGGCTTTGCTCGC
->Replication_oligoP_DMS-18_R Frag1258-1331_57.6C
-ACATGTCGATAACGGAGGCT
->Replication_geneP_Mut-1_R Frag1-73 59.0C
-ATACGTCTCgagggtggtgattgctgtgc
->Replication_geneP_Mut-1_F Frag1-73 60.2C
-ATACGTCTCtcgaaacccagtttgatcttcgtg
->Replication_geneP_Mut-2_R Frag74-147 61.9C
-ATACGTCTCcggatagtgttttctcattgagttacaataatac
->Replication_geneP_Mut-2_F Frag74-147 62.0C
-ATACGTCTCggcgtgtctgattacattaaagggc
->Replication_geneP_Mut-3_R Frag148-221 59.7C
-ATACGTCTCggcttcatcatccaaccacagaag
->Replication_geneP_Mut-3_F Frag148-221 57.3C
-ATACGTCTCtgccacgggagccctt
->Replication_geneP_Mut-4_R Frag222-295 59.8C
-ATACGTCTCggcaagtgttgccgtcaatgt
->Replication_geneP_Mut-4_F Frag222-295 59.6C
-ATACGTCTCctaaagcaactccccttattggaga
->Replication_geneP_Mut-5_R Frag296-369 64.3C
-ATACGTCTCaaactcgactttctctttagcagccg
->Replication_geneP_Mut-5_F Frag296-369 61.8C
-ATACGTCTCtgcctaatcatcagaggctcgc
->Replication_geneP_Mut-6_R Frag370-443 61.8C
-ATACGTCTCaatacggtgtttgctcttgaactgc
->Replication_geneP_Mut-6_F Frag370-443 60.7C
-ATACGTCTCgattttataccgcctatggcatctct
->Replication_geneP_Mut-7_R Frag444-517 60.6C
-ATACGTCTCcaccatctgacaaaatagtgacatgtcttt
->Replication_geneP_Mut-7_F Frag444-517 61.6C
-ATACGTCTCgagaacaacactgcaaactttaaacgg
->Replication_geneP_Mut-8_R Frag518-591 61.4C
-ATACGTCTCcctggctgctctccctgcat
->Replication_geneP_Mut-8_F Frag518-591 60.3C
-ATACGTCTCgcacctgatgctattagtgacttattag
->Replication_geneP_Mut-9_R Frag592-665 61.4C
-ATACGTCTCctctaagctaatccttattggtctaaatttagg
->Replication_geneP_Mut-9_F Frag592-665 57.0C
-ATACGTCTCggcgcccccaagcaa
->Replication_geneP_Mut-10_R Frag666-739 59.4C
-ATACGTCTCtccttgaaaaccggcgaacaa
->Replication_geneP_Mut-10_F Frag666-739 62.3C
-ATACGTCTCgtagatgctgtggagttagtagacga
->Replication_geneP_Mut-11_R Frag740-813 59.2C
-ATACGTCTCtaatttgtgttcaacccagatggtctt
->Replication_geneP_Mut-11_F Frag740-813 59.4C
-ATACGTCTCcccactcacaggactatgatgtaca
->Replication_geneP_Mut-12_R Frag814-887 59.5C
-ATACGTCTCaaggttcaaaaacccatactggacc
->Replication_geneP_Mut-12_F Frag814-887 62.1C
-ATACGTCTCcgcactaagcttgaaccaagtgtc
->Replication_geneP_Mut-13_R Frag888-961 60.9C
-ATACGTCTCgttgatgttcaacctgccagtttctt
->Replication_geneP_Mut-13_F Frag888-961 60.6C
-ATACGTCTCagcatggaggatgcatgttacgg
->Replication_geneP_Mut-14_R Frag962-1035 61.4C
-ATACGTCTCggtcttgatatctaactgcttgagttgg
->Replication_geneP_Mut-14_F Frag962-1035 62.7C
-ATACGTCTCaaagggaagtctcgtctgatagaagc
->Replication_geneP_Mut-15_R Frag1036-1109 60.3C
-ATACGTCTCgtcgatggccctaagttcatcttta
->Replication_geneP_Mut-15_F Frag1036-1109 58.8C
-ATACGTCTCgtgtggttcagggcgctg
->Replication_geneP_Mut-16_R Frag1110-1183 59.4C
-ATACGTCTCactagcgtcataccccgagt
->Replication_geneP_Mut-16_F Frag1110-1183 62.1C
-ATACGTCTCgatctagatgaactgaacatggtggcc
->Replication_geneP_Mut-17_R Frag1184-1257 59.5C
-ATACGTCTCgaatgttttaatcaggagtgttctaataatgata
->Replication_geneP_Mut-17_F Frag1184-1257 59.5C
-ATACGTCTCacgatgccaatgagggagattca
->Replication_geneP_Mut-18_R Frag1258-1331 61.0C
-ATACGTCTCgagaaacgggaattgatgatcaggc
->Replication_geneP_Mut-18_F Frag1258-1331 58.4C
-ATACGTCTCagtttgtaactgaaccccaccagt
+>Replication_oligoP_DMS-1_F Frag1-49_58.2C
+GCTTTGCGTAGTTGCACAATG
+>Replication_oligoP_DMS-1_R Frag1-49_57.6C
+CGAGTTGCCGTACCATTTGA
+>Replication_oligoP_DMS-2_F Frag50-99_58.5C
+AGGATCTCATGTGTTGCAGCC
+>Replication_oligoP_DMS-2_R Frag50-99_57.0C
+CCCGTACAAGACGGATTGAC
+>Replication_oligoP_DMS-3_F Frag100-149_57.3C
+TAAGCTGGCCTCAGAAAAGC
+>Replication_oligoP_DMS-3_R Frag100-149_55.9C
+TTTATACCGGGCAACGACC
+>Replication_oligoP_DMS-4_F Frag150-199_60.0C
+AATGTTTGCATTGTCTCGCGC
+>Replication_oligoP_DMS-4_R Frag150-199_58.9C
+GCCGGAGCTAGTGTCCCTA
+>Replication_oligoP_DMS-5_F Frag200-249_58.4C
+ACGCCCAAATACTCATGTCGT
+>Replication_oligoP_DMS-5_R Frag200-249_58.7C
+CGTTGCTACCCAACCCGTAA
+>Replication_oligoP_DMS-6_F Frag250-299_56.9C
+CGAATTTGAATGCCTCTGGC
+>Replication_oligoP_DMS-6_R Frag250-299_56.5C
+CCCGCGGCGTTGAG
+>Replication_oligoP_DMS-7_F Frag300-349_58.0C
+ATATTTTGAGCGTGGGCAGTG
+>Replication_oligoP_DMS-7_R Frag300-349_57.5C
+GGTGCTCGCATGAACGAC
+>Replication_oligoP_DMS-8_F Frag350-399_56.0C
+TGCTATTCAAGACCACAGGC
+>Replication_oligoP_DMS-8_R Frag350-399_58.4C
+CGCTTCTGTCATAGTTCGGG
+>Replication_oligoP_DMS-9_F Frag400-449_57.2C
+GTACCTGATCGCTACTACGC
+>Replication_oligoP_DMS-9_R Frag400-449_58.6C
+ACGCTCCGATCGCCATC
+>Replication_oligoP_DMS-10_F Frag450-499_58.0C
+CGGACCAGTGGTATACAGGAG
+>Replication_oligoP_DMS-10_R Frag450-499_56.6C
+CTCCGACCTCACTGATTGC
+>Replication_oligoP_DMS-11_F Frag500-548_57.4C
+CGTCGATAAGGTGTTTGGCT
+>Replication_oligoP_DMS-11_R Frag500-548_58.0C
+TGACCAGAGCGTGATCACAC
+>Replication_oligoP_DMS-12_F Frag549-597_59.3C
+TCTTGTCGTGTTCTGTGTCGG
+>Replication_oligoP_DMS-12_R Frag549-597_58.1C
+GTGCTAGTCGTAACGCTTCC
+>Replication_oligoP_DMS-13_F Frag598-646_57.9C
+CTGGCGGGCTATTTAAAGCT
+>Replication_oligoP_DMS-13_R Frag598-646_58.7C
+AACTGCGGCTAGTACTGTTCC
+>Replication_oligoP_DMS-14_F Frag647-695_57.9C
+TCAGTAGAGAATGTTCGCGC
+>Replication_oligoP_DMS-14_R Frag647-695_57.0C
+TCGGCTTTCCCAGTAGGAC
+>Replication_oligoP_DMS-15_F Frag696-744_59.3C
+CAGTGCTTTTCTACCGAGCTG
+>Replication_oligoP_DMS-15_R Frag696-744_57.0C
+GTCCCCGTGTGAAATTCCTTC
+>Replication_oligoP_DMS-16_F Frag745-793_56.8C
+TCTTATCAACGATGCTGGCC
+>Replication_oligoP_DMS-16_R Frag745-793_57.0C
+ACCCGATTGCAGTGTTTCTG
+>Replication_oligoP_DMS-17_F Frag794-842_56.4C
+ATATGTATAGAGGGCCGGGG
+>Replication_oligoP_DMS-17_R Frag794-842_57.7C
+CTCCCCAAGCATCTTTTGGC
+>Replication_oligoP_DMS-18_F Frag843-891_56.8C
+TTTCCTTGTTCGGATCGGTC
+>Replication_oligoP_DMS-18_R Frag843-891_58.5C
+GTTGCGGTTCCTAGCTTTTCC
+>Replication_oligoP_DMS-19_F Frag892-940_58.3C
+AATTATCAGAGCTGTCCGCCT
+>Replication_oligoP_DMS-19_R Frag892-940_58.9C
+CGTTGCCCACGCAACCTA
+>Replication_oligoP_DMS-20_F Frag941-989_58.5C
+ATGAGGCGGATGTACAAACGA
+>Replication_oligoP_DMS-20_R Frag941-989_56.9C
+TGGACATGCGGCTACTTAAG
+>Replication_oligoP_DMS-21_F Frag990-1038_58.8C
+TTCCGGGTTGTGTGTAATCCG
+>Replication_oligoP_DMS-21_R Frag990-1038_57.9C
+AAACCACATCCGACCACCAAC
+>Replication_oligoP_DMS-22_F Frag1039-1087_58.7C
+TCACTTAAGCTCACGATGGGG
+>Replication_oligoP_DMS-22_R Frag1039-1087_58.7C
+GGTGGTCCACTCATGAGTTCG
+>Replication_oligoP_DMS-23_F Frag1088-1136_57.3C
+TGCAAGAGGATGGCTATTCG
+>Replication_oligoP_DMS-23_R Frag1088-1136_58.4C
+TCGCCGTCACACGCAAT
+>Replication_oligoP_DMS-24_F Frag1137-1185_57.3C
+TATGTCAATCGTCGGCTTGG
+>Replication_oligoP_DMS-24_R Frag1137-1185_55.8C
+GGAATTGATCCCTCAACCTCC
+>Replication_oligoP_DMS-25_F Frag1186-1234_58.5C
+ATTATGATCGGGCTCGCATTG
+>Replication_oligoP_DMS-25_R Frag1186-1234_58.3C
+GAGTACTAGGGTCTCGCCTTC
+>Replication_oligoP_DMS-26_F Frag1235-1283_57.4C
+ATCTTAACGAACCGCCTAGC
+>Replication_oligoP_DMS-26_R Frag1235-1283_58.1C
+GTTTAGGGCCCTCTCCTACG
+>Replication_oligoP_DMS-27_F Frag1284-1332_56.9C
+AGCTTGTATTGTCGAAGGCC
+>Replication_oligoP_DMS-27_R Frag1284-1332_58.1C
+CTTGTGCCCCCGAGCAC
+>Replication_geneP_Mut-1_R Frag1-49 72.8C
+ATACGTCTCggtggtgattgctgtgcgactggcaccagttggtttaataaaa
+>Replication_geneP_Mut-1_F Frag1-49 71.1C
+ATACGTCTCacgattgctcgttgcaattgccagacaggagtgtatt
+>Replication_geneP_Mut-2_R Frag50-99 76.8C
+ATACGTCTCttgagcagtggtagatgatacgagcaagtcgcgggagctgtct
+>Replication_geneP_Mut-2_F Frag50-99 73.8C
+ATACGTCTCgtgggtcattcggaaccaggggattgcggtggcattc
+>Replication_geneP_Mut-3_R Frag100-149 73.8C
+ATACGTCTCgagatgtgactggtatctagctggataatactcgctggcctcc
+>Replication_geneP_Mut-3_F Frag100-149 67.1C
+ATACGTCTCgtgtctgattacattaaagggcttggagatgcttttg
+>Replication_geneP_Mut-4_R Frag150-199 73.8C
+ATACGTCTCcatggcttcatcatccaaccacagaagatccctcacatcggcg
+>Replication_geneP_Mut-4_F Frag150-199 71.6C
+ATACGTCTCgcgctcgtcatcgtcatcaggagtgattatgacatgg
+>Replication_geneP_Mut-5_R Frag200-249 71.1C
+ATACGTCTCtttaactaagttctttagaatcttctccacggcaccctctgag
+>Replication_geneP_Mut-5_F Frag200-249 73.8C
+ATACGTCTCtcttggttaaagaagttcaacgatgcggcgagtgccg
+>Replication_geneP_Mut-6_R Frag250-299 74.1C
+ATACGTCTCcttctgagccatcggtatgcccaagattgatgctgtcttcgac
+>Replication_geneP_Mut-6_F Frag250-299 66.8C
+ATACGTCTCctccccttattggagaaccaaatttctaatctcgaac
+>Replication_geneP_Mut-7_R Frag300-349 70.7C
+ATACGTCTCattgtttagaaactcgactttctctttagcagccggtatgatt
+>Replication_geneP_Mut-7_F Frag300-349 65.9C
+ATACGTCTCgccctagaaaagagaatgaataattacatgcagttcaa
+>Replication_geneP_Mut-8_R Frag350-399 75.0C
+ATACGTCTCctttgcttccgtggcatagaggggttggaatttgcggcagaag
+>Replication_geneP_Mut-8_F Frag350-399 69.3C
+ATACGTCTCagtgtgtattccttacctccagacccagaccactttg
+>Replication_geneP_Mut-9_R Frag400-449 72.8C
+ATACGTCTCcttgtctgctatggctctagcaataatccctgttgccaaggac
+>Replication_geneP_Mut-9_F Frag400-449 70.9C
+ATACGTCTCatggcatctctggaggagaagggagtctcattcacct
+>Replication_geneP_Mut-10_R Frag450-499 69.2C
+ATACGTCTCaaaatccactgtggacaccatctgacaaaatagtgacatgtct
+>Replication_geneP_Mut-10_F Frag450-499 71.7C
+ATACGTCTCtcctataagacagagctgggcagacttgatgcaggga
+>Replication_geneP_Mut-11_R Frag500-548 74.4C
+ATACGTCTCctcaatatcgcagtccataaagaaccggcgacgaatggcatct
+>Replication_geneP_Mut-11_F Frag500-548 70.6C
+ATACGTCTCagtgtggacacggtagtgagtgaacttatcagggagt
+>Replication_geneP_Mut-12_R Frag549-597 72.6C
+ATACGTCTCcttggacttcctatccctaagctggattgctttcccacagact
+>Replication_geneP_Mut-12_F Frag549-597 66.6C
+ATACGTCTCagtgacttattagctagtgttgatagtgaagaggttc
+>Replication_geneP_Mut-13_R Frag598-646 72.4C
+ATACGTCTCaggtgcgggcttctcctctaagctaatccttattggtctaaat
+>Replication_geneP_Mut-13_F Frag598-646 68.7C
+ATACGTCTCgttgtgtcccttgtttacgtcatctacaagttgttcg
+>Replication_geneP_Mut-14_R Frag647-695 71.8C
+ATACGTCTCggtggctacagactgcataatcaagacagctctattcaagtgg
+>Replication_geneP_Mut-14_F Frag647-695 73.9C
+ATACGTCTCaggaggaacattaggcaggtccaaaccgaccagggcc
+>Replication_geneP_Mut-15_R Frag696-744 81.5C
+ATACGTCTCtagggcgaagtccaagctcggcccctgcacagttgccgtgcgc
+>Replication_geneP_Mut-15_F Frag696-744 69.4C
+ATACGTCTCgagttagtagacgaacaaggggttaacttagagctca
+>Replication_geneP_Mut-16_R Frag745-793 69.9C
+ATACGTCTCtacgatcttcactaatttgtgttcaacccagatggtctttcct
+>Replication_geneP_Mut-16_F Frag745-793 70.1C
+ATACGTCTCcccagtatgtttgtgccagttggagatgtggtccagt
+>Replication_geneP_Mut-17_R Frag794-842 67.7C
+ATACGTCTCagtatttataactaaagtggcatcactagcaggactaattgtt
+>Replication_geneP_Mut-17_F Frag794-842 72.2C
+ATACGTCTCgggatccacattggtggcaacggtaggcaaggtttct
+>Replication_geneP_Mut-18_R Frag843-891 75.0C
+ATACGTCTCacccacggcagtcacaacaccaccacactgtcctgcttttgtt
+>Replication_geneP_Mut-18_F Frag843-891 70.3C
+ATACGTCTCcttgaaccaagtgtctttcacgatgtgttcgaaggca
+>Replication_geneP_Mut-19_R Frag892-940 73.5C
+ATACGTCTCagtaggtccgttgatgttcaacctgccagtttctttgttgggc
+>Replication_geneP_Mut-19_F Frag892-940 71.8C
+ATACGTCTCgtcaaggaggcggccttacattatgccaaccaactca
+>Replication_geneP_Mut-20_R Frag941-989 73.0C
+ATACGTCTCgggttcatgaagcgtgttccccacgtattttgaaaaaagagcc
+>Replication_geneP_Mut-20_F Frag941-989 66.1C
+ATACGTCTCctaggcatcaagaaaaaggacattttggatccaacaa
+>Replication_geneP_Mut-21_R Frag990-1038 71.0C
+ATACGTCTCtggatatcctgcacttgtgtgaagatctatagcttccaggttc
+>Replication_geneP_Mut-21_F Frag990-1038 70.6C
+ATACGTCTCaagtctcgtctgatagaagcgagcagtctaaatgact
+>Replication_geneP_Mut-22_R Frag1039-1087 69.4C
+ATACGTCTCgatcttgtcgatggccctaagttcatctttaacataagtagag
+>Replication_geneP_Mut-22_F Frag1039-1087 70.2C
+ATACGTCTCttaccaattctacttccaggatcgcttttcgcgtttg
+>Replication_geneP_Mut-23_R Frag1088-1136 71.6C
+ATACGTCTCgaacacatctgggttacacccaacagctgaaccagtgattgta
+>Replication_geneP_Mut-23_F Frag1088-1136 65.7C
+ATACGTCTCaatcacacccatcatgtgtaccgcaataaaacttatt
+>Replication_geneP_Mut-24_R Frag1137-1185 74.7C
+ATACGTCTCtatgagagacactgcgtcttcggagtatccaatttcccgcagg
+>Replication_geneP_Mut-24_F Frag1137-1185 69.7C
+ATACGTCTCctagatgaactgaacatggtggcctacggggatgatg
+>Replication_geneP_Mut-25_R Frag1186-1234 66.0C
+ATACGTCTCtttgaatgttttaatcaggagtgttctaataatgatattgttgatcatc
+>Replication_geneP_Mut-25_F Frag1186-1234 68.5C
+ATACGTCTCacatgggagaatgccactttcttgaagagaggattct
+>Replication_geneP_Mut-26_R Frag1235-1283 73.9C
+ATACGTCTCaaagcagggtgacttgtcggcaggggtcatagttagaccatac
+>Replication_geneP_Mut-26_F Frag1235-1283 71.6C
+ATACGTCTCtccctctgcttattagcatggcacaacgggaaagagg
+>Replication_geneP_Mut-27_R Frag1284-1332 72.1C
+ATACGTCTCatcttgagtacttcgtgcatctttggtccaacgaatggattcg
+>Replication_geneP_Mut-27_F Frag1284-1332 71.5C
+ATACGTCTCagtttgtaactgaaccccaccagtaatctggtcgcgt
