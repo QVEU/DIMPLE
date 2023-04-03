@@ -1,100 +1,100 @@
->Replication_geneP_Mut-1_R Frag1-54 63.7C
-ATACGTCTCggtggtgattgctgtgcgactgg
+>Replication_geneP_Mut-1_R Frag1-54 69.1C
+ATACGTCTCggtggtgattgctgtgcgactggcacc
 >Replication_geneP_Mut-1_F Frag1-54 64.0C
 ATACGTCTCcgttgcaattgccagacaggagtgtat
->Replication_geneP_Mut-2_R Frag55-108 63.5C
-ATACGTCTCaatcgtgtcacaaccttgagcagtgg
->Replication_geneP_Mut-2_F Frag55-108 63.5C
-ATACGTCTCgattgcggtggcattcttagatgcc
->Replication_geneP_Mut-3_R Frag109-162 61.7C
-ATACGTCTCtggttccgaatgacccactgcaa
->Replication_geneP_Mut-3_F Frag109-162 62.0C
-ATACGTCTCtttggcatggggtttacagacgc
+>Replication_geneP_Mut-2_R Frag55-108 64.6C
+ATACGTCTCaatcgtgtcacaaccttgagcagtggt
+>Replication_geneP_Mut-2_F Frag55-108 64.6C
+ATACGTCTCgattgcggtggcattcttagatgccaa
+>Replication_geneP_Mut-3_R Frag109-162 65.8C
+ATACGTCTCtggttccgaatgacccactgcaagcat
+>Replication_geneP_Mut-3_F Frag109-162 65.3C
+ATACGTCTCtttggcatggggtttacagacgcagtg
 >Replication_geneP_Mut-4_R Frag163-216 64.3C
 ATACGTCTCatctccaagccctttaatgtaatcagacacg
->Replication_geneP_Mut-4_F Frag163-216 65.1C
-ATACGTCTCacggcaacacttgccctgatcgg
+>Replication_geneP_Mut-4_F Frag163-216 70.2C
+ATACGTCTCacggcaacacttgccctgatcgggtgc
 >Replication_geneP_Mut-5_R Frag217-270 62.5C
 ATACGTCTCtgtgaccatgtcataatcactcctgatgac
 >Replication_geneP_Mut-5_F Frag217-270 64.4C
 ATACGTCTCtccaacaaaatcagtaaatttatcgattggctcaag
->Replication_geneP_Mut-6_R Frag271-324 68.1C
-ATACGTCTCccactcaagccccttcgcggcac
->Replication_geneP_Mut-6_F Frag271-324 62.9C
-ATACGTCTCatgtttggcaacgtgtcttatctggc
->Replication_geneP_Mut-7_R Frag325-378 63.9C
-ATACGTCTCctcaaggtcctcctgcgaagctg
->Replication_geneP_Mut-7_F Frag325-378 63.4C
-ATACGTCTCtcgcctggtactgggaagtcctt
->Replication_geneP_Mut-8_R Frag379-431 63.7C
-ATACGTCTCtctgatgattaggcatacaggttcaatacgg
->Replication_geneP_Mut-8_F Frag379-431 64.4C
-ATACGTCTCgacgggaaagacatgtcactattttgtcagat
->Replication_geneP_Mut-9_R Frag432-484 63.2C
-ATACGTCTCgttttggcataggtcgtccataacagtg
->Replication_geneP_Mut-9_F Frag432-484 64.8C
-ATACGTCTCgatgccattcgtcgccggttctt
->Replication_geneP_Mut-10_R Frag485-537 63.9C
-ATACGTCTCatccgagactgttggcactatgatgttac
->Replication_geneP_Mut-10_F Frag485-537 62.8C
-ATACGTCTCgcaatccagcttagggataggaagtc
->Replication_geneP_Mut-11_R Frag538-590 60.7C
-ATACGTCTCcccacagactaatggactgcacc
->Replication_geneP_Mut-11_F Frag538-590 66.2C
-ATACGTCTCgaggagaagcccgcacctgatgc
->Replication_geneP_Mut-12_R Frag591-643 62.8C
-ATACGTCTCgctaatccttattggtctaaatttagggggt
->Replication_geneP_Mut-12_F Frag591-643 64.4C
-ATACGTCTCgccaccgtggtagcagttgtgtc
->Replication_geneP_Mut-13_R Frag644-696 65.9C
-ATACGTCTCagactgcataatcaagacagctctattcaagtgg
->Replication_geneP_Mut-13_F Frag644-696 62.4C
-ATACGTCTCcttaggaggaacattaggcaggtcca
->Replication_geneP_Mut-14_R Frag697-749 63.8C
-ATACGTCTCagatagggcgaagtccaagctcg
->Replication_geneP_Mut-14_F Frag697-749 64.8C
-ATACGTCTCgacgaacaaggggttaacttagagctca
->Replication_geneP_Mut-15_R Frag750-802 65.9C
-ATACGTCTCtaactccacagcatctacgatcttcactaatttgt
->Replication_geneP_Mut-15_F Frag750-802 61.5C
-ATACGTCTCggagatgtggtccagtatgggtttttg
->Replication_geneP_Mut-16_R Frag803-855 62.6C
-ATACGTCTCtggcacaaacatactgggcatatgttca
->Replication_geneP_Mut-16_F Frag803-855 66.5C
-ATACGTCTCttctgcgctgccctgaagagggg
->Replication_geneP_Mut-17_R Frag856-908 62.4C
-ATACGTCTCttgcctaccgttgccaccaatgt
->Replication_geneP_Mut-17_F Frag856-908 64.3C
-ATACGTCTCccagcagtgctgactagtaaagaccc
->Replication_geneP_Mut-18_R Frag909-961 65.8C
-ATACGTCTCtttagtgccttcgaacacatcgtgaaagac
->Replication_geneP_Mut-18_F Frag909-961 62.1C
-ATACGTCTCaccaagatgagcatggaggatgcatg
->Replication_geneP_Mut-19_R Frag962-1014 64.9C
-ATACGTCTCcttgatatctaactgcttgagttggttggcataat
->Replication_geneP_Mut-19_F Frag962-1014 62.4C
-ATACGTCTCgacaagtatgggttggatctaccgtac
->Replication_geneP_Mut-20_R Frag1015-1067 66.6C
-ATACGTCTCgtagaatttcatcttgctgacatcgcgagttg
->Replication_geneP_Mut-20_F Frag1015-1067 61.6C
-ATACGTCTCcacgccaacccaggtacaatcac
->Replication_geneP_Mut-21_R Frag1068-1120 64.6C
-ATACGTCTCagcttcataaaggtgcccaaatgtcattctc
->Replication_geneP_Mut-21_F Frag1068-1120 62.1C
-ATACGTCTCgtcctgcgggaaattggatactcc
->Replication_geneP_Mut-22_R Frag1121-1173 65.0C
-ATACGTCTCctccagcgccctgaaccacactg
->Replication_geneP_Mut-22_F Frag1121-1173 62.4C
-ATACGTCTCattattagaacactcctgattaaaacattcaaaggg
->Replication_geneP_Mut-23_R Frag1174-1226 64.7C
-ATACGTCTCattgttgatcatcgagttgaaaatggaggtgc
->Replication_geneP_Mut-23_F Frag1174-1226 63.3C
-ATACGTCTCgccgacaagtcaccctgctttaatg
->Replication_geneP_Mut-24_R Frag1227-1279 63.1C
-ATACGTCTCggtcatagttagaccatactccttgcct
->Replication_geneP_Mut-24_F Frag1227-1279 64.8C
-ATACGTCTCactcaagatcacgtgcgctccct
->Replication_geneP_Mut-25_R Frag1280-1332 62.2C
-ATACGTCTCtcgtgcatctttggtccaacgaatg
->Replication_geneP_Mut-25_F Frag1280-1332 62.0C
-ATACGTCTCatttacagtttgtaactgaaccccaccagt
+>Replication_geneP_Mut-6_R Frag271-324 73.2C
+ATACGTCTCccactcaagccccttcgcggcactcgc
+>Replication_geneP_Mut-6_F Frag271-324 64.4C
+ATACGTCTCatgtttggcaacgtgtcttatctggcc
+>Replication_geneP_Mut-7_R Frag325-377 68.7C
+ATACGTCTCctcaaggtcctcctgcgaagctgctga
+>Replication_geneP_Mut-7_F Frag325-377 68.6C
+ATACGTCTCggctcgcctggtactgggaagtccttg
+>Replication_geneP_Mut-8_R Frag378-430 63.0C
+ATACGTCTCgatgattaggcatacaggttcaatacggtg
+>Replication_geneP_Mut-8_F Frag378-430 62.7C
+ATACGTCTCccagacgggaaagacatgtcactattttg
+>Replication_geneP_Mut-9_R Frag431-483 63.5C
+ATACGTCTCttggcataggtcgtccataacagtgac
+>Replication_geneP_Mut-9_F Frag431-483 67.5C
+ATACGTCTCtcagatgccattcgtcgccggttcttt
+>Replication_geneP_Mut-10_R Frag484-536 64.2C
+ATACGTCTCcgagactgttggcactatgatgttactgg
+>Replication_geneP_Mut-10_F Frag484-536 64.3C
+ATACGTCTCaaagcaatccagcttagggataggaagtc
+>Replication_geneP_Mut-11_R Frag537-589 64.7C
+ATACGTCTCacagactaatggactgcaccgtttaaagttt
+>Replication_geneP_Mut-11_F Frag537-589 67.9C
+ATACGTCTCttagaggagaagcccgcacctgatgct
+>Replication_geneP_Mut-12_R Frag590-642 61.9C
+ATACGTCTCaatccttattggtctaaatttagggggtcc
+>Replication_geneP_Mut-12_F Frag590-642 67.8C
+ATACGTCTCgtagccaccgtggtagcagttgtgtcc
+>Replication_geneP_Mut-13_R Frag643-695 65.6C
+ATACGTCTCctgcataatcaagacagctctattcaagtggc
+>Replication_geneP_Mut-13_F Frag643-695 62.4C
+ATACGTCTCctacttaggaggaacattaggcaggtc
+>Replication_geneP_Mut-14_R Frag696-748 71.2C
+ATACGTCTCtagggcgaagtccaagctcggcccctg
+>Replication_geneP_Mut-14_F Frag696-748 65.1C
+ATACGTCTCgtagacgaacaaggggttaacttagagct
+>Replication_geneP_Mut-15_R Frag749-801 65.1C
+ATACGTCTCctccacagcatctacgatcttcactaatttgtg
+>Replication_geneP_Mut-15_F Frag749-801 62.2C
+ATACGTCTCgttggagatgtggtccagtatgggttt
+>Replication_geneP_Mut-16_R Frag802-854 64.2C
+ATACGTCTCcacaaacatactgggcatatgttcagtatttataactaaa
+>Replication_geneP_Mut-16_F Frag802-854 69.9C
+ATACGTCTCggtttctgcgctgccctgaagagggga
+>Replication_geneP_Mut-17_R Frag855-907 66.1C
+ATACGTCTCcctaccgttgccaccaatgtggatccc
+>Replication_geneP_Mut-17_F Frag855-907 65.7C
+ATACGTCTCgagccagcagtgctgactagtaaagac
+>Replication_geneP_Mut-18_R Frag908-960 65.1C
+ATACGTCTCagtgccttcgaacacatcgtgaaagac
+>Replication_geneP_Mut-18_F Frag908-960 64.6C
+ATACGTCTCaccaccaagatgagcatggaggatgca
+>Replication_geneP_Mut-19_R Frag961-1013 65.3C
+ATACGTCTCgatatctaactgcttgagttggttggcataatgtaa
+>Replication_geneP_Mut-19_F Frag961-1013 62.1C
+ATACGTCTCatggacaagtatgggttggatctaccg
+>Replication_geneP_Mut-20_R Frag1014-1066 66.2C
+ATACGTCTCgaatttcatcttgctgacatcgcgagttgtt
+>Replication_geneP_Mut-20_F Frag1014-1066 65.4C
+ATACGTCTCttccacgccaacccaggtacaatcact
+>Replication_geneP_Mut-21_R Frag1067-1119 63.8C
+ATACGTCTCttcataaaggtgcccaaatgtcattctcaagta
+>Replication_geneP_Mut-21_F Frag1067-1119 63.2C
+ATACGTCTCatagtcctgcgggaaattggatactcc
+>Replication_geneP_Mut-22_R Frag1120-1172 69.7C
+ATACGTCTCcagcgccctgaaccacactgggctgag
+>Replication_geneP_Mut-22_F Frag1120-1172 64.6C
+ATACGTCTCatcattattagaacactcctgattaaaacattcaaaggga
+>Replication_geneP_Mut-23_R Frag1173-1225 63.8C
+ATACGTCTCgttgatcatcgagttgaaaatggaggtgc
+>Replication_geneP_Mut-23_F Frag1173-1225 65.5C
+ATACGTCTCcctgccgacaagtcaccctgctttaat
+>Replication_geneP_Mut-24_R Frag1226-1278 64.4C
+ATACGTCTCcatagttagaccatactccttgcctgttcttg
+>Replication_geneP_Mut-24_F Frag1226-1278 67.8C
+ATACGTCTCagtactcaagatcacgtgcgctccctc
+>Replication_geneP_Mut-25_R Frag1279-1331 62.3C
+ATACGTCTCtgcatctttggtccaacgaatggattc
+>Replication_geneP_Mut-25_F Frag1279-1331 62.9C
+ATACGTCTCtaaatttacagtttgtaactgaaccccaccagt
